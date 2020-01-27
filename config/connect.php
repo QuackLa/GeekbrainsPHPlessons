@@ -1,0 +1,1 @@
+<?php $side = mysqli_connect("localhost", "root", "", "myBase");?>
