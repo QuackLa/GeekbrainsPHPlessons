@@ -1,0 +1,313 @@
+.body {
+    background-color: rgb(224, 224, 224);
+    width:1450px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainimage {
+    width: 1302px;
+    margin-bottom: 2px;
+    margin-left: 74px;
+}
+
+.mainimage-admin {
+    width: 1302px;
+    margin-bottom: 2px;
+    margin-left: 100px;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    min-height: 400px;
+}
+
+/* Main-menu */
+
+.main-menu {
+    padding-left: 100px;
+}
+
+.menu-list {
+    padding-top:5px;
+    float: left;
+    outline: 1px solid #707070;
+    width: 180px;
+    color: #d9b500;
+    text-align: center;
+    background-color: #171717;
+    height: 30px;
+    font-size: 20px; 
+    margin-right: 2px;
+}
+
+.menu-list:hover {
+    background-color:#313663;
+    outline: 1px solid #b8a502;
+}
+
+.main-menu-block {
+    background-color:black;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.basket-menu  {
+    padding-top:5px;
+    float: right;
+    color: #d9b500;
+    outline: 1px solid #707070;
+    width: 180px;
+    text-align: center;
+    background-color: #171717;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.basket-menu:hover {
+    background-color:#313663;
+    outline: 1px solid #b8a502;
+}
+
+.menu2 {
+    padding-right: 100px;
+}
+
+.h1-main-page {
+    margin-top: 100px;
+    margin-left: 500px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+/* Footer ----------------------------------------------------------- */
+
+.footer {
+    background-color: black;
+    padding-top:20px;
+    border: 1px solid black;
+    width: 1300px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.block-footer {
+    background-color: #171717;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.text-footer {
+    font-size: 20px;
+    height: 30px;
+    padding-left: 200px;
+}
+
+.text-footer a {
+    color: #d9b500;
+    border-bottom: 2px ridge #707070;
+}
+
+.text-footer a:hover {
+    color: #313663;   
+}
+
+.all-right {
+    text-align: center;
+    border: 1px solid black;
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #d9b500;
+    font-size: 15px;
+}
+
+/* Catalog ----------------------------------------------------------- */
+
+.text-description-catalog {
+    padding-left: 50px;
+}
+
+.img-catalog {
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    margin: 40px;
+}
+
+.h2-catalog {
+    margin: 50px;
+}
+
+.price {
+float: left;
+font-size: 30px;
+color: green;
+margin-left: 30px;
+margin-top: 50px;
+}
+
+.buy {
+    width: 200px;
+    height: 50px;
+    margin-top: 130px;
+    position: relative;
+    right: 110px;
+    border: 1px solid #d9b500;
+    background-color: #707070;
+    box-shadow: 2px 2px 10px green;
+    color: wheat;
+    font-size: 20px;
+    letter-spacing: 5px;  
+}
+
+.buy:hover {
+    border: 1px solid #d9b500;
+    background-color: #313663;
+    box-shadow: 2px 2px 10px navy;
+}
+
+.buy:focus {
+    outline: none;
+}
+
+/* Mainpagecatalog ----------------------------------------------------------- */
+
+.td-catalog img {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.table-catalog{
+    margin-top: 10px;
+}
+
+.table-catalog td {
+    width: 150px;
+}
+
+.form {
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+/* Админка */
+
+.menu-list-admin {
+    padding-top:5px;
+    float: left;
+    outline: 1px solid #707070;
+    width: 1100px;
+    color: #d9b500;
+    text-align: center;
+    background-color: #171717;
+    height: 30px;
+    font-size: 20px; 
+    margin-right: 2px;
+}
+
+.tableadmin {
+    display: inline-block;
+    margin: 10px;
+    width: 230px;
+}
+
+.tableadmin img {
+    width: 150px;
+    margin: 5px;
+}
+
+.buttonadmin {
+    border: 1px solid #d9b500;
+    background-color: #707070;
+    box-shadow: 2px 2px 10px green;
+    color: wheat; 
+}
+
+.buttonadmin:hover {
+    border: 1px solid #d9b500;
+    background-color: #313663;
+    box-shadow: 2px 2px 10px navy;
+}
+
+.buttonadmin:focus {
+    outline: none;
+}
+
+.buttonsuccess {
+    margin-top: 50px;
+    border: 1px solid #d9b500;
+    background-color: #707070;
+    box-shadow: 2px 2px 10px green;
+    color: wheat; 
+}
+
+.buttonsuccess:nth-child(2) {
+    margin-left: 50px;
+}
+
+.buttonsuccess:last-child {
+    margin-left: 530px;
+    width: 200px;
+}
+
+.buttonsuccess:hover {
+    border: 1px solid #d9b500;
+    background-color: #313663;
+    box-shadow: 2px 2px 10px navy;
+}
+
+.buttonsuccess:focus {
+    outline: none;
+}
+
+.form-admin {
+    margin-left: 30px;
+}
+
+/* Регистрация */
+
+.buttonsuccess-registry {
+    width:160px;
+    margin-top: 20px;
+    border: 1px solid #d9b500;
+    background-color: #707070;
+    box-shadow: 2px 2px 10px green;
+    color: wheat; 
+}
+
+.buttonsuccess-registry:hover {
+    border: 1px solid #d9b500;
+    background-color: #313663;
+    box-shadow: 2px 2px 10px navy;
+}
+
+.buttonsuccess-registry:focus {
+    outline: none;
+}
+
+/* Войти */
+
+.buttonsuccess-entry {
+    width:160px;
+    margin-top: 20px;
+    border: 1px solid #d9b500;
+    background-color: #707070;
+    box-shadow: 2px 2px 10px green;
+    color: wheat; 
+}
+
+.buttonsuccess-entry:hover {
+    border: 1px solid #d9b500;
+    background-color: #313663;
+    box-shadow: 2px 2px 10px navy;
+}
+
+.buttonsuccess-entry:focus {
+    outline: none;
+}
